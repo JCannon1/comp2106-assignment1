@@ -10,7 +10,7 @@ router.get('/', (req, res, next) => {
 });
 
 /* GET about page. */
-router.get('/', (req, res, next) => {
+router.get('/about', (req, res, next) => {
   res.render('about', { 
     title: 'About Me',
     message: 'My name is Jesse Cannon and here is my portfolio with all of my best work.'
@@ -18,7 +18,7 @@ router.get('/', (req, res, next) => {
 });
 
 /* GET projects page. */
-router.get('/', (req, res, next) => {
+router.get('/projects', (req, res, next) => {
   res.render('projects', { 
     title: 'Projects',
     message: 'Here are all of my projects.'
@@ -26,7 +26,7 @@ router.get('/', (req, res, next) => {
 });
 
 /* GET services page. */
-router.get('/', (req, res, next) => {
+router.get('/services', (req, res, next) => {
   res.render('services', { 
     title: 'Services',
     message: 'Here are my services.'
@@ -34,7 +34,7 @@ router.get('/', (req, res, next) => {
 });
 
 /* GET contact page. */
-router.get('/', (req, res, next) => {
+router.get('/contact', (req, res, next) => {
   res.render('contact', { 
     title: 'Contact Me',
     message: 'Here is my contact info.'
