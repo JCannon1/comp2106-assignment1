@@ -6,3 +6,34 @@ body {
 a {
   color: #00B7FF;
 }
+
+.heroImage {
+  background-image: url(../images/pexels-photo-392018.jpeg);
+  height: 1000px;
+  width: 1300px;
+  background-size: auto;
+  position: relative;
+  top: 0px;
+  right: 90px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+/* Text over the image */
+.text {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  font-size: 20px;
+}
+/* Heading text */
+.headingText {
+  position: absolute;
+  top: 150px;
+  left: 350px;
+}

@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', (req, res, next) => {
   res.render('index', { 
     title: 'Jesse Cannon Portfolio',
-    message: 'Welcome to my Portfolio'
+    message: 'my Portfolio. Hello, my name is Jesse Cannon and my goal of this portfolio site is to show you all of my web design skills I have acquired from my time at Georgian College. My Projects page will display all of the top pieces of work I have done so far for visuals. While the Contact page will ask you for your contact information in order to reach me. I hope my page is of great use to you. '
    });
 });
 
