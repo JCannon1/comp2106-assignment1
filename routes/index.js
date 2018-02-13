@@ -37,7 +37,7 @@ router.get('/services', (req, res, next) => {
 router.get('/contact', (req, res, next) => {
   res.render('contact', { 
     title: 'Contact Me',
-    message: 'Here is my contact info.'
+    message: 'Please fill out the form below with your information to get in touch with me.'
    });
 });
 
