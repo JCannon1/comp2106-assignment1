@@ -21,7 +21,7 @@ router.get('/about', (req, res, next) => {
 router.get('/projects', (req, res, next) => {
   res.render('projects', { 
     title: 'Projects',
-    message: 'Here are all of my projects.'
+    message: 'Here are a list of my projects. To visit the live site, please click anywhere on the images and it will send you to the website.'
    });
 });
 
