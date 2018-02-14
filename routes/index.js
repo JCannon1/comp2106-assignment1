@@ -25,11 +25,11 @@ router.get('/projects', (req, res, next) => {
    });
 });
 
-/* GET services page. */
-router.get('/services', (req, res, next) => {
-  res.render('services', { 
-    title: 'Services',
-    message: 'Here are my services.'
+/* GET skills page. */
+router.get('/skills', (req, res, next) => {
+  res.render('skills', { 
+    title: 'Skills',
+    message: 'Here are my skills.'
    });
 });
 

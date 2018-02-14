@@ -1,9 +1,12 @@
 <% include shared/header %>
 
-    <div class="container">
-      <img src="../images/pexels-photo-392018.jpeg" class="heroImage" alt="Hero Image" />
-      <div class="headingText"><%= title %></div>
-      <div class="text">Welcome to <%= message %></div>
-    </div>
+<div class="jumbotron">
+  <h1 class="display-3"><%= title %></h1>
+  <p class="lead">Welcome to <%= message %></p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/projects" role="button">View my Projects</a>
+  </p>
+</div>
 
 <% include shared/footer %>

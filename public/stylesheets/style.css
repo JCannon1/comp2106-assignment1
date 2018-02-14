@@ -4,50 +4,19 @@ body {
   position: relative;
   top: 150px;
 }
-
 a {
   color: #00B7FF;
 }
-/* Added a background hero image */
-.heroImage {
+/* Added a jumbotron on the home page */
+.jumbotron {
   background-image: url(../images/pexels-photo-392018.jpeg);
-  height: 1000px;
-  width: 1300px;
-  background-size: auto;
-  position: relative;
-  top: 0px;
-  right: 90px;
+  background-size: 100%;
   /* Changed the z-index so the navbar is in front of the image */
   z-index: -1;
-}
-/* Created a container to hold my image and text */
-.container {
-  position: relative;
-  text-align: left;
   color: white;
-  font-size: 40px;
-  /* Changed the z-index so the navbar is in front of the container */
-  z-index: -1;
+  background-repeat: no-repeat;
 }
-/* Heading text over the image */
-.headingText {
-  position: absolute;
-  top: 150px;
-  left: 350px;
-  color: white;
-}
-/* Text over the image */
-.text {
-  position: absolute;
-  top: 250px;
-  left: 350px;
-  font-size: 20px;
-  border: 1px solid darkgrey;
-  border-radius: 4px;
-  background: darkgrey;
-  opacity: 0.9;
-}
-/* Fiex the navbar to the top of the page */
+/* Fixed the navbar to the top of the page */
 .navbar {
   position: fixed;
   left: 0;
