@@ -1,7 +1,7 @@
 /* Internal Documentation
 File Name: index.js
 Author's Name: Jesse Cannon
-Website Name:
+Website Name: https://jcannon-comp2106-assignment1.herokuapp.com/
 File Description: My index.js page for all of my text
 */
 
