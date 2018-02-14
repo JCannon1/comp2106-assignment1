@@ -24,3 +24,21 @@ a {
   width: 100%;
   background: white;
 }
+/* Made 2 of the project previews move beside the others */
+.projectPreview1 {
+  float: left;
+  width: 50%;
+}
+
+.skillsContainer {
+  z-index: -1000;
+}
+/* Centered the Project Previews Text */
+.projectPreviewsTitle {
+  text-align: center;
+  border: none;
+  background-color: rgb(13, 88, 13);
+  color: white;
+  opacity: 0.7;
+  border-radius: 25px;
+}

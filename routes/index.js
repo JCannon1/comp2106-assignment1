@@ -29,7 +29,7 @@ router.get('/projects', (req, res, next) => {
 router.get('/skills', (req, res, next) => {
   res.render('skills', { 
     title: 'Skills',
-    message: 'Here are my skills.'
+    message: 'Here are a few of my useful skills.'
    });
 });
 

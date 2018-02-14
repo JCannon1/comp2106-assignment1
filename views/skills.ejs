@@ -3,18 +3,22 @@
 <h1><%= title %></h1>
 <p><%= message %></p>
 
-<div id="mobileFriendlySkill">
-    <h2>Mobile Friendly</h2>
-    <img src="../images/pexels-photo-541522.jpeg" alt="Mobile Images" height="260" width="400">
-</div>
-<div id="front-endSkill">
-    <h2>Front-End Development</h2>
-    <img src="../images/pexels-photo-160107.jpeg" alt="CSS Code" height="260" width="400">
-</div>
-<div id="adobeSkill">
-    <h2>Adobe Creative Suite</h2>
-    <img src="../images/Adobe-Illustrator-icon.png" alt="Adobe Illustator Icon" height="120" width="140">
-    <img src="../images/Adobe-Photoshop-icon.png" alt="Adobe Photoshop Icon" height="120" width="140">
-</div>
+<div class="skillsContainer">
+    <div class="row">
+      <div class="col-sm">
+        <h2>Mobile Friendly</h2>
+        <img src="../images/pexels-photo-541522.jpeg" alt="Mobile Images" height="260" width="400">
+      </div>
+      <div class="col-sm">
+        <h2>Front-End Development</h2>
+        <img src="../images/pexels-photo-160107.jpeg" alt="CSS Code" height="260" width="400">
+      </div>
+      <div class="col-sm">
+        <h2>Adobe Creative Suite</h2>
+        <img src="../images/Adobe-Illustrator-icon.png" alt="Adobe Illustator Icon" height="260" width="210">
+        <img src="../images/Adobe-Photoshop-icon.png" alt="Adobe Photoshop Icon" height="260" width="210">
+      </div>
+    </div>
+  </div>
 
 <% include shared/footer.ejs %>
