@@ -13,7 +13,8 @@ router.get('/', (req, res, next) => {
 router.get('/about', (req, res, next) => {
   res.render('about', { 
     title: 'About Me',
-    message: 'My name is Jesse Cannon and here is my portfolio with several skills that I have aquired that will bring a new style to the industry of web design. I have always been a vert artistic person and my love and interest for computers has also allowed me to hone my skills over the years. My portfolio page displays several of my previous pieces of work and I hope you enjoy viewing each of them.'
+    message: 'My name is Jesse Cannon and this is my portfolio. Throughout my portfolio I display several skills that I have aquired and believe will bring a new style to the industry of web design. I have always been a very artistic person and my love and interest for computers has also allowed me to hone my skills over the years. My portfolio page displays several of my previous pieces of work and I hope you enjoy viewing each of them.',
+    message2: 'Feel free to have a look around at the different pages to see all of my work, my skills and how you can contact me. Each of my projects are accessible by clicking on the image that corresponds to the project. Thank you for visiting my portfolio. I look forward to hearing from you soon.'
    });
 });
 

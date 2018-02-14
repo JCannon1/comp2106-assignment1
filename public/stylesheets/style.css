@@ -42,3 +42,23 @@ a {
   opacity: 0.7;
   border-radius: 25px;
 }
+/* Centered all of the projects on tbe page */
+.projectsContainer {
+  text-align: center;
+}
+/* Aligned all titles to the center */
+.allTitles {
+  text-align: center;
+}
+/* Gave the navbar a lightgrey border */
+.navbar {
+  border: 1px solid lightgrey;
+}
+/* Adding a hover opacity effect so the user knows where they can click */
+.projectPreviewHover:hover {
+  opacity: 0.7;
+}
+/* Made the text in my about section larger */
+.aboutText {
+  font-size: 20px;
+}
