@@ -60,6 +60,8 @@ a {
 /* Gave the navbar a lightgrey border */
 .navbar {
   border: 1px solid lightgrey;
+  /* Added a z-index of 1 so no images appear in front of the navbar */
+  z-index: 1;
 }
 /* Adding a hover opacity effect so the user knows where they can click */
 .projectPreviewHover:hover {
@@ -69,3 +71,4 @@ a {
 .aboutText {
   font-size: 20px;
 }
+
