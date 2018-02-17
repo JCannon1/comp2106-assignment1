@@ -49,4 +49,41 @@ router.get('/contact', (req, res, next) => {
    });
 });
 
+
+
+
+// Making a functional contact form with nodemailer
+// var nodemailer = require('nodemailer');
+
+// var router = express.Router();
+// app.use('/sayHello', router);
+// router.post('/', handleSayHello); 
+
+// function handleSayHello(req, res) {
+//     var transporter = nodemailer.createTransport({
+//         service: 'Hotmail',
+//         auth: {
+//             user: 'jessecannon1@hotmail.com', 
+//             pass: '' 
+//         }
+//     });
+// }
+// var text = 'Hello world from \n\n' + req.body.name;
+
+// var mailOptions = {
+//   from: 'jessecannon1@hotmail.com>', 
+//   to: 'jessecannon1@hotmail.com', 
+//   text: text 
+// };
+
+// transporter.sendMail(mailOptions, function(error, info){
+//   if(error){
+//       console.log(error);
+//       res.json({yo: 'error'});
+//   }else{
+//       console.log('Message sent: ' + info.response);
+//       res.json({yo: info.response});
+//   };
+// });
+
 module.exports = router;
