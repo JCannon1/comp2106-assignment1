@@ -8,11 +8,13 @@ File Description: My index.ejs page that is attached to index.js to populate thi
 <% include shared/header %>
 
 <div class="jumbotron">
-  <h1 class="display-3"><%= title %></h1>
-  <p class="lead">Welcome to <%= message %></p>
+  <div class="jumbotronContainer">
+    <h1 class="display-3"><%= title %></h1>
+    <p class="lead">Welcome to <%= message %></p>
+  </div>
   <hr class="my-4">
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="/projects" role="button">View my Projects</a>
+    <a class="btn btn-dark btn-lg" href="/projects" role="button">View my Projects</a>
   </p>
 </div>
 

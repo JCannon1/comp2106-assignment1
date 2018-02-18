@@ -7,7 +7,8 @@ File Description: My main stylesheet
 
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* Added in a custom Google Font of Roboto */
+  font-family: 14px 'Roboto', Arial sans-serif;
   position: relative;
   top: 150px;
 }
@@ -17,11 +18,16 @@ a {
 /* Added a jumbotron on the home page */
 .jumbotron {
   background-image: url(../images/pexels-photo-392018.jpeg);
-  background-size: 100%;
+  background-size: cover;
   /* Changed the z-index so the navbar is in front of the image */
   z-index: -1;
   color: white;
   background-repeat: no-repeat;
+}
+.jumbotronContainer {
+  border: none;
+  border-radius: 10px;
+  background: rgba(77, 142, 87, 0.9);
 }
 /* Fixed the navbar to the top of the page */
 .navbar {
@@ -71,4 +77,3 @@ a {
 .aboutText {
   font-size: 20px;
 }
-
