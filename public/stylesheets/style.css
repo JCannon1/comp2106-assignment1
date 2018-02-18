@@ -77,3 +77,12 @@ a {
 .aboutText {
   font-size: 20px;
 }
+/* Made the projects page repsonsive */
+.projectPreviewHover img {
+ width: 70%;
+ height: auto;
+}
+.col-sm img {
+  width: 100%;
+  height: auto;
+}
