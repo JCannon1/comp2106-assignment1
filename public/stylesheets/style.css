@@ -36,15 +36,15 @@ a {
   top: 0;
   width: 100%;
   background: white;
+  /* Gave the navbar a lightgrey border */
+  border: 1px solid lightgrey;
+  /* Added a z-index of 1 so no images appear in front of the navbar */
+  z-index: 1;
 }
 /* Made 2 of the project previews move beside the others */
 .projectPreview1 {
   float: left;
   width: 50%;
-}
-
-.skillsContainer {
-  z-index: -1000;
 }
 /* Centered the Project Previews Text */
 .projectPreviewsTitle {
@@ -63,12 +63,6 @@ a {
 .allTitles {
   text-align: center;
 }
-/* Gave the navbar a lightgrey border */
-.navbar {
-  border: 1px solid lightgrey;
-  /* Added a z-index of 1 so no images appear in front of the navbar */
-  z-index: 1;
-}
 /* Adding a hover opacity effect so the user knows where they can click */
 .projectPreviewHover:hover {
   opacity: 0.7;
@@ -86,3 +80,5 @@ a {
   width: 100%;
   height: auto;
 }
+
+
